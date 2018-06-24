@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+.container{
+    text-align: center;
+}
+.header, .footer{
+    background-color: #4b73b5;
+    color: #fff;
+    position:relative;
+}
+.header .logo, .header .contacts {
+    display: inline-block;
+}
+.header .contacts{
+    position:absolute;
+    right: 10px;
+}
+.container{
+    position: relative;
+}
+.nav   {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+li{
+    list-style: none;
+}
+.nav_list_item::before {
+    content:"img/icons//main_icon.png";
+    widows: 20px;
+    height: 20px;;
+}
+.main{
+    display: inline-block;
+}
+
+.company-pic{
+    width:100%;
+    text-align: right;
+}
+ 
+.rates-list__item{
+    display: inline-block;
+}
+
+
+.news-list__content{
+    display: inline-block;
+}
+ 
+
+.footer .logo, .footer .signature, .footer .socials {
+    display: inline-block;
+}
+
+.socials__list{
+    list-style-type: none;
+}
+
+.socials__list-item{
+    display: inline;
+}
+
+display: inline;
+.График_работы {
+    font-size: 14px;
+  
+    color: rgba(255, 255, 255, 0.702);
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 3.857;
+    position: absolute;
+    left: 977px;
+    top: 78.024px;
+    z-index: 94;
+  }
+
+  ._19 {
+    font-size: 17.76px;
+    font-family: "Roboto";
+    color: rgb(32, 32, 32);
+    vertical-align: sub;
+    line-height: 3.383;
+    text-align: center;
+    -moz-transform: matrix( 3.03080547786971,0,0,3.03459354694428,0,0);
+    -webkit-transform: matrix( 3.03080547786971,0,0,3.03459354694428,0,0);
+    -ms-transform: matrix( 3.03080547786971,0,0,3.03459354694428,0,0);
+    position: absolute;
+    left: 311.092px;
+    top: 835.959px;
+    z-index: 49;
+  }
+  
+  
