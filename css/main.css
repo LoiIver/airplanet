@@ -78,7 +78,6 @@ header .logo__pic {
 
 aside {
     display: inline-block;
-    /* width: 18%; */
     margin-left: 20px;
     margin-right: 60px;
     width: 110px;
@@ -101,7 +100,7 @@ aside {
 }
 
 .nav__list-item_team::before {
-    content: url(/img/icons/team_icon.png);
+    content: url(../img/icons/team_icon.png);
 }
 
 .nav__list-item_main::before {
