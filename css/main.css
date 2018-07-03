@@ -101,15 +101,15 @@ aside {
 }
 
 .nav__list-item_team::before {
-    content: url(/img/icons/team_icon.png);
+    content: url(../img/icons/team_icon.png);
 }
 
 .nav__list-item_main::before {
-    content: url(/img/icons/main_icon.png);
+    content: url(../img/icons/main_icon.png);
 }
 
 .nav__list-item_feed::before {
-    content: url(/img/icons/feed_icon.png);
+    content: url(../img/icons/feed_icon.png);
 }
 
 .nav__list-item_active {
@@ -130,7 +130,7 @@ main {
     width: 900px;
     height: 230px;
     margin-bottom: 20px;
-    background-image: url("/img/pics/photo.png");
+    background-image: url("../img/pics/photo.png");
 }
 
 .rates {
