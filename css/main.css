@@ -70,6 +70,7 @@ header .logo__pic {
 
 .contacts__working-hours {
     text-decoration: underline;
+    display: block;
 }
 
 /* .container{
@@ -84,11 +85,37 @@ aside {
     width: 110px;
     vertical-align: top;
 }
-
+.nav__list{
+    position: relative;
+}
 .nav__list-item {
     font-size: 12px;
     line-height: 30px;
-    color: #4b73b5
+    color: #4b73b5;
+    text-transform:uppercase; 
+}
+
+.nav__list-item_team::before{
+    content: url(/img/icons/team_icon.png); 
+    width: 18px;
+    height: 16px;
+    margin-right: 20px;
+}
+
+
+
+.nav__list-item_main::before{
+    content: url(/img/icons/main_icon.png); 
+    width: 18px;
+    height: 16px;
+    margin-right: 20px;
+}
+
+.nav__list-item_feed::before{
+    content: url(/img/icons/feed_icon.png); 
+    width: 18px;
+    height: 16px;
+    margin-right: 20px;
 }
 
 .nav__list-item_active {
@@ -104,11 +131,13 @@ main {
 }
 
 .company-pic {
-    display: inline-block;
+    display: block;
     margin-top: -20px;
     width: 900px;
     height: 230px;
     margin-bottom: 20px;
+    background-image:url("/img/pics/photo.png");
+
 }
 .rates{
     margin-bottom: 105px;
@@ -149,7 +178,7 @@ main {
     font-weight: bold;
     color:#212121;
     margin-bottom: 27px;
-   
+    text-transform:uppercase;    
 }
 .rates-list__item-descr{
     font-size: 18px;
@@ -254,6 +283,7 @@ footer .logo{
     position: absolute;
     top: 20px;
     left: 489px;
+    
 }
 .socials {  
    position: absolute;
