@@ -142,47 +142,50 @@ main {
     margin-bottom: 65px;
 }
 
+.rates-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .rates-list__item {
-    display: inline-block;
+    /* display: inline-block;
+    position: relative; */
     text-align: center;
-    width: 200px;
+    width: 195px;
     margin-left: 20px;
     margin-right: 55px;
-    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .rates-list__item-image-back {
-    display: block;
-    position: absolute;
-    top:-70px;
-    margin-top: 20px;
+    /* display: block;
+    position: absolute; */
+    /* top: -70px;
+    margin-top: 20px; */
     margin-bottom: 20px;
     background: #4b73b5;
     border-radius: 50%;
-    left:70px;
+    /* left: 70px; */
     height: 70px;
     width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
- .rates-list__item-image-standard{
+ 
+.rates-list__item-image_standard   {
     content: url(../img/pics/flower.png);
-    position: absolute;
-    top: 20px;
-    left: 21px;
 }
 
-.rates-list__item-image-premium{
+.rates-list__item-image-premium {
     content: url(../img/pics/mark-as-favorite-star.png);
-    position: absolute;
-    top: 20px;
-    left: 19px;
-}
-.rates-list__item-image-lux{
-    content: url(../img/pics/painter-palette.png);
-    position: absolute;
-    top: 20px;
-    left: 19px;
 }
 
+.rates-list__item-image-lux {
+    content: url(../img/pics/painter-palette.png);
+}
 
 .rates-list__item-header {
     font-size: 11px;
@@ -198,6 +201,7 @@ main {
     line-height: 33px;
     color: #5d5b5b;
     margin-bottom: 20px;
+    max-width: 195px;
 }
 
 .rates-list__item-pros-item {
@@ -225,14 +229,17 @@ main {
 .news__list-item {
     vertical-align: top;
     margin-bottom: 57px;
+    display: flex;
 }
 
-.news__list-item-image-wrapper{
+.news__list-item-image-wrapper {
     border-radius: 50%;
     display: inline-block;
     height: 160px;
     width: 160px;
+    overflow: hidden;
 }
+
 .news__list-item-content {
     display: inline-block;
     vertical-align: top;
@@ -282,15 +289,16 @@ main {
 }
 
 footer .container {
-    position: relative;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
     height: 75px;
 }
 
 .signature {
-    display: inline-block;
-    width: 237px;
     font-size: 14px;
     line-height: 16px;
+    width: 237px;
     height: 55px;
     margin-top: 12px;
 }
@@ -304,26 +312,25 @@ footer .container {
     font-weight: bold;
 }
 
-footer .logo {
-    position: absolute;
-    top: 20px;
-    left: 489px;
+.footer__logo {
+    margin-top: 20px;
 }
 
 .socials {
-    position: absolute;
-    right: 0px;
+    margin-top: 20px;
     font-size: 14px;
-    top: 17px;
 }
 
 .socials__header {
-    margin-bottom: 10px;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.socials__list {
+    display: flex;
 }
 
 .socials__list-item {
-    display: inline-block;
     background: #fff;
     text-align: center;
     border-radius: 50%;
