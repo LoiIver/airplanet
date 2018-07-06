@@ -228,7 +228,7 @@ main {
     margin-bottom: 57px;
 }
 
-.news__list-item-image {
+.news__list-item-image-wrapper{
     border-radius: 50%;
     display: inline-block;
     height: 160px;
