@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+header,
+footer {
+    background-color: #4b73b5;
+    color: #fff;
+}
+
+header {
+    margin-bottom: 45px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header .container {
+    height: 75px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo__pic {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    top: 20px;
+    right: 0px;
+}
+
+.contacts__phone {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts__phone:hover {
+    text-decoration: underline;
+}
+
+.contacts__working-hours {
+    text-decoration: underline;
+    /* display: block; */
+    width: 120px;
+    color: #fff 0.7;
+    font-size: 14px;
+   
+}
+
+
+aside {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 60px;
+    width: 110px;
+    vertical-align: top;
+}
+
+.nav__list {
+    position: relative;
+}
+
+.nav__list-item {
+    font-size: 12px;
+    line-height: 30px;
+    color: #4b73b5;
+    text-transform: uppercase;
+}
+
+.nav__list-item::before {
+    margin-right: 20px;
+}
+
+.nav__list-item-team::before {
+    content: url(../img/icons/team_icon.png);
+}
+
+.nav__list-item-main::before {
+    content: url(../img/icons/main_icon.png);
+ 
+}
+.nav__list-item-main_active::before {
+    content: url(../img/icons/main_icon_active.png);
+}
+
+.nav__list-item-feed::before {
+    content: url(../img/icons/feed_icon.png);
+}
+
+.nav__list-item_active {
+    color: #221f1f;
+}
+
+.nav__list-item-icon {
+    margin-right: 20px;
+}
+
+footer .container {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.signature {
+    font-size: 14px;
+    line-height: 16px;
+    width: 237px;
+    height: 55px;
+    margin-top: 12px;
+}
+
+.signature__course-issuer {
+    font-weight: bold;
+    color: #fff;
+}
+
+.signature__author-name {
+    font-weight: bold;
+}
+
+.footer__logo {
+    margin-top: 20px;
+}
+
+.socials {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.socials__header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.socials__list {
+    display: flex;
+}
+
+.socials__list-item {
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    margin-right: 10px;
+}
+
+
+
+.paginator {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.paginator_header {
+    color: #adacac;
+}
+
+.paginator__pages,
+.paginator__page,
+.paginator__button {
+    display: inline;
+}
+
+.paginator__page {
+    color: black;
+}
+
+.paginator__page_active {
+    background-color: #4b73b5;
+    width: 20px;
+    color: #ffffff;
+}

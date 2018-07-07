@@ -1,32 +1,214 @@
-<!doctype html>
-<html lang="ru"> 
+<!doctype html >
+<html lang="ru">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airplanet</title>
 
-<title>Airplanet</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-<link rel="manifest" href="./img/favicon/site.webmanifest">
-<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-
-<link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
-<link rel="stylesheet" href="./css/normalize.css" />
-<link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/news.css" />
+    <link rel="stylesheet" href="./css/comments.css" />
 
 </head>
 
 <body>
-     
-<!--[if lt IE 8]>
-    Ваш браузер устарел.
-<![endif]-->
-    <span style="margin-top: 10px;">ddddd</span>
+
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="./img/logo/logo_header.png" class="logo__pic" alt="logo" />
+            </a>
+            <div class="contacts">
+                <a class="contacts__phone" href="tel:+78000039210">8(800) 00-392-10</a>
+                <button class="contacts__working-hours">График работы</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item nav__list-item-main">Главная</li>
+                    <li class="nav__list-item nav__list-item-feed  nav__list-item_active">Отзывы</li>
+                    <li class="nav__list-item nav__list-item-team">Экипаж</li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__list-item">
+                        <a class="breadcrumbs__list-item-link" href="main.html"></a>Главная</a>
+                    </li>
+                    <li class="breadcrumbs__list-item">Отзывы</li>
+                </ul>
+            </div>
+            <div class="news">
+                <h2 class="news__header">Отзывы</h2>
+                <ul class="news__list">
+                    <li class="news__list-item">
+                        <div class="news__list-item-image-wrapper">
+                            <img class="news__list-item-image" alt="Отзыв Ирины Паламарчук" src="./img/pics/irina_palamarchuk.png" />
+                        </div>
+                        <div class="news__list-item-content">
+                            <div class="news__list-date">12.10.2016</div>
+                            <h4 class="news__list-item-header">Ирина Паламарчук</h4>
+
+                            <p class="news__list-item-text">Классный полёт, трясло первые полчаса так, что я боялсь отстегнуть ремни. Слава Богу, ничего
+                                не случилось, но мне даже валерьянка не помогла, так страшно было. Рекомендую эту компанию,
+                                но лучше доплатить и лететь с комфортом.</p>
+                        </div>
+                    </li>
+                    <li class="news__list-item">
+                        <div class="news__list-item-image-wrapper">
+                            <img class="news__list-item-image" alt="отзыв Александра Белькова" src="./img/pics/aleksandr_belkov.png" />
+                        </div>
+                        <div class="news__list-item-content">
+                            <div class="news__list-date">01.02.2016</div>
+                            <h4 class="news__list-item-header">Александр Бельков</h4>
+
+                            <p class="news__list-item-text">Все понравилось, вежливые стюардесы, вовремя убирают, напитки предлагали 2 раза, а еду - 1 раз.
+                                Единственное, что не понравилось - как-то мало места для ног, но с этим у меня часто проблема,
+                                рост 2.1 м
+                            </p>
+                        </div>
+                    </li>
+                    <li class="news__list-item">
+                        <div class="news__list-item-image-wrapper">
+                            <img class="news__list-item-image" alt="отзыв Александра Белькова" src="./img/pics/noname.png" />
+                        </div>
+                        <div class="news__list-item-content">
+                            <div class="news__list-date">22.12.2015</div>
+                            <h4 class="news__list-item-header">Игорь Николаенко</h4>
+                            <p class="news__list-item-text"> Кормили супер вообще! Сказали, что это из-за того, что полёт менее 2,5 часов. Но прибавьте к
+                                этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте
+                                это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="news__list-item">
+                        <div class="news__list-item-image-wrapper">
+                            <img class="news__list-item-image" alt="Отзыв Анастасии Порядной" src="./img/pics/anastasia_poryadnaya.png" />
+                        </div>
+                        <div class="news__list-item-content">
+                            <div class="news__list-date">14.08.2015</div>
+                            <h4 class="news__list-item-header">Анастасия Порядная</h4>
+
+                            <p class="news__list-item-text">За такую цену просто всё отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы
+                                Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спаасибо
+                                за полёт! Рекомендую!
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="paginator">
+                <span class="paginator_header">Страница 1 из 7</span>
+                <button class="paginator__button">
+                    <</button>
+                        <ul class="paginator__pages">
+                            <li class="paginator__page paginator__page_active">1</li>
+                            <li class="paginator__page">2</li>
+                            <li class="paginator__page">3</li>
+                            <li class="paginator__page">4</li>
+                            <li class="paginator__page">5</li>
+                            <li class="paginator__page">6</li>
+                            <li class="paginator__page">7</li>
+                        </ul>
+                        <button class="paginator__button">></button>
+
+            </div>
+
+        </main>
+    </div>
+    <div class="rent_questions">
+        <p class="rent_questions__text">
+            Вопросы по бронированию билетов нашей авиакомпании принимаются. Для этого можно оставить
+            <span class="rent_questions__text-request">заявку на сайте</span> или же позвонить по номеру круглосуточной поддержки
+            <a class="rent_questions__text-phone" href="tel:88000039210">8(800) 00 392 10 </a>.
+        </p>
+    </div>
+    <div class="container">
+        <div class="comment-form">
+            <h3 class="comment-form__header">Оставить отзыв</h3>
+            <div class="comment-form__row>">
+                <div class="comment-form__input">
+                    <span class="comment-form__input-label">Ваше имя</span>
+                    <input class="comment-form__input-text" type="text" placeholder="Анна" />
+                </div>
+                <div class="comment-form__input">
+                    <span class="comment-form__input-label">Ссылка на профиль VK</span>
+                    <input class="comment-form__input-text" type="text" placeholder="vk.com/example" />
+                </div>
+            </div>
+            <div class="comment-form__row>">
+                <div class="comment-form__input">
+                    <span class="comment-form__input-label">Текст отзыва</span>
+                    <textarea class="comment-form__input-text" placeholder="Мне понравилось"></textarea>
+                </div>
+            </div>
+            <div class="comment-form__row>">
+                <span class="comment-form__input-label">Отображать фото в отзыве</span>
+
+                <input type="radio" checked value="Да" name "can-publish">Да</d>
+                <input type="radio" value="Нет" name "can-publish">Нет</input>
+                <button type="submit">
+                    <span>Отправить</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="signature">
+                <div class="signature__course-desc">Сделано с любовью и старанием на курсе "HTML + CSS" в
+                    <a class="signature__course-issuer" href="https://loftschool.com/">LoftShool</a>.
+                </div>
+                <div class="signature__author">Автор работы:
+                    <span class="signature__author-name">Анна Рысина</span>
+                </div>
+            </div>
+            <div class="footer__logo">
+                <img src="img/logo/logo_header.png" class="logo" alt="ЛОготип" />
+            </div>
+
+            <div class="socials">
+                <div class="socials__header">Наши социальные сети</div>
+                <ul class="socials__list">
+                    <li class="socials__list-item">
+                        <img class="socials__vk" src="img/logo/vk.png" />
+                    </li>
+                    <li class="socials__list-item">
+                        <img class="socials__fb" src="img/logo/fb.png" />
+                    </li>
+                    <li class="socials__list-item">
+                        <img class="socials__gp" src="img/logo/google.png" /> </li>
+                    <li class="socials__list-item">
+                        <img class="socials__tw" src="img/logo/twitter.png" /> </li>
+                    <li class="socials__list-item">
+                        <img class="socials__ma" src="img/logo/mail.png" /> </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </div>
 </body>
 
 </html>
