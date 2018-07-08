@@ -96,10 +96,32 @@
 .comment-form__input-textarea{
     width: 550px;
 }
-.comment-form__input-option{
+.comment-form__input-option-label{
     margin-right: 20px;
+   
+}
+.comment-form__input-option-label_active{
+    color: #4b73b5;
 }
 
-.comment-form__submit-button span{
+.comment-form__submit-button {
     background-color: #4b73b5;
+    border: 0px;
+    width: 155px;
+    height: 45px;
+    border-radius: 5%;
+    align-self: flex-end;
+    
+    margin-left:115px;
+  
 }
+
+.comment-form__submit-button-caption{
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right:10px;
+}
+ 
