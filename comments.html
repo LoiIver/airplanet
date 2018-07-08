@@ -143,33 +143,41 @@
     </div>
     <div class="container">
         <div class="comment-form">
-            <h3 class="comment-form__header">Оставить отзыв</h3>
-            <div class="comment-form__row>">
-                <div class="comment-form__input">
-                    <span class="comment-form__input-label">Ваше имя</span>
-                    <input class="comment-form__input-text" type="text" placeholder="Анна" />
+            <div class="coment-form_inner">
+                <h3 class="comment-form__header">Оставить отзыв</h3>
+                <div class="comment-form__row">
+                    <div class="comment-form__input">
+                        <span class="comment-form__input-label">Ваше имя</span>
+                        <input class="comment-form__input-text" type="text" placeholder="Анна" />
+                    </div>
+                    <div class="comment-form__input">
+                        <span class="comment-form__input-label">Ссылка на профиль VK</span>
+                        <input class="comment-form__input-text" type="text" placeholder="vk.com/example" />
+                    </div>
                 </div>
-                <div class="comment-form__input">
-                    <span class="comment-form__input-label">Ссылка на профиль VK</span>
-                    <input class="comment-form__input-text" type="text" placeholder="vk.com/example" />
+                <div class="comment-form__row">
+                    <div class="comment-form__input">
+                        <span class="comment-form__input-label">Текст отзыва</span>
+                        <textarea class="comment-form__input-textarea" rows=5 placeholder="Мне понравилось"></textarea>
+                    </div>
                 </div>
-            </div>
-            <div class="comment-form__row>">
-                <div class="comment-form__input">
-                    <span class="comment-form__input-label">Текст отзыва</span>
-                    <textarea class="comment-form__input-text" placeholder="Мне понравилось"></textarea>
+                <div class="comment-form__row">
+                    <div class="comment-form__input">
+                        <span class="comment-form__input-label">Отображать фото в отзыве</span>
+                        <div class="comment-form__input-options">
+                            <input class="comment-form__input-option" type="radio" checked value="Да" name "can-publish">Да</input>
+                            <input class="comment-form__input-option" type="radio" value="Нет" name "can-publish">Нет</input>
+                        </div>
+                    </div>
+                    <div class="comment-form__input">
+                        <button class="comment-form__submit-button"  type="submit">
+                            <span>Отправить</span><img src="./img/icons/main_icon.png" >
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="comment-form__row>">
-                <span class="comment-form__input-label">Отображать фото в отзыве</span>
-
-                <input type="radio" checked value="Да" name "can-publish">Да</d>
-                <input type="radio" value="Нет" name "can-publish">Нет</input>
-                <button type="submit">
-                    <span>Отправить</span>
-                </button>
             </div>
         </div>
+    </div>
 
     </div>
 

@@ -72,11 +72,10 @@ header .logo__pic {
 
 .contacts__working-hours {
     text-decoration: underline;
-    /* display: block; */
+     
     width: 120px;
     color: #fff 0.7;
-    font-size: 14px;
-   
+    font-size: 14px;   
 }
 
 
@@ -109,8 +108,8 @@ aside {
 
 .nav__list-item-main::before {
     content: url(../img/icons/main_icon.png);
- 
 }
+
 .nav__list-item-main_active::before {
     content: url(../img/icons/main_icon_active.png);
 }
