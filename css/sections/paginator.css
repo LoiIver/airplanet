@@ -1,0 +1,31 @@
+.paginator {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.paginator_header {
+    color: #adacac;
+}
+
+.paginator__pages,
+.paginator__page,
+.paginator__button {
+    display: inline-block;
+    background-color:#fff;
+}
+
+.paginator__page {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+}
+
+.paginator__page_active {
+    background-color:  #4b73b5;
+    width: 20px;
+    color: #fff;
+   border-radius: 5%;
+}
+ 

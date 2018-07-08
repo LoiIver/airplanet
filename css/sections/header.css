@@ -1,0 +1,53 @@
+header {
+    background-color: #4b73b5;
+    color: #fff;
+    margin-bottom: 45px;
+}
+ 
+
+header .container {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo__pic {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    top: 20px;
+    right: 0px;
+    margin-bottom: 15px;
+}
+
+.contacts__phone {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contacts__phone:hover {
+    text-decoration: underline;
+}
+
+.contacts__working-hours {
+    width: 140px;
+    text-align: right;
+    background-color: transparent;
+    color: #fff;
+    pointer-events: none;
+}
+.contacts__working-hours-text{
+    font-size: 14px; 
+    font-weight: bold;  
+    text-decoration: underline;
+    font-style: normal;
+}

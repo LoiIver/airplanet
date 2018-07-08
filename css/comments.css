@@ -1,127 +1,108 @@
-.breadcrumbs__list{
+@import url("./main.css");
+@import url("./sections/news.css");
+@import url("./sections/paginator.css");
+
+.main {
     display: flex;
-   
+    flex-direction: column;
 }
- 
- .breadcrumbs__list-item::after {
-     content: "/";
- }
 
- .breadcrumbs__list-item:last-child::after {
-     content: "";
- }
+.rent_questions {
+    height: 170px;
+    background-color: #4bb56b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
 
- .main {
-     display: flex;
-     flex-direction: column;
- }
-
-  .rent_questions{
-      height: 170px;
-      background-color: #4bb56b;
-      display: flex;
-      justify-content:center;
-      align-items: center;
-      margin-bottom: 60px;
-
-  }
-.rent_questions__text{
-  width: 630px; 
+.rent_questions__text {
+    width: 630px;
     font-size: 18px;
-    color: #fff; 
-  line-height: 30pt;
+    color: #fff;
+    line-height: 30pt;
 }
 
-.rent_questions__text-request{
+.rent_questions__text-request {
     text-decoration: underline;
     font-weight: bold;
 }
-.rent_questions__text-phone{
+
+.rent_questions__text-phone {
     font-weight: bold;
     text-decoration: none;
-    color: #fff; 
+    color: #fff;
 }
 
-
-.comment-form{
+.comment-form {
     background-color: #f5f5f5;
     display: flex;
     flex-flow: column;
-    margin-top:50px;
+    margin-top: 50px;
     margin-left: 200px;
-    width:700px;
-    height:430px;
+    width: 700px;
+    height: 430px;
     margin-bottom: 50px;
 }
 
-
-.comment-form__header{
+.comment-form__header {
     font-size: 49px;
     line-height: 30pt;
     margin-bottom: 20px;
 }
 
-
-
-.coment-form_inner{
-    width:560px;
-    height:330px;
+.coment-form_inner {
+    width: 560px;
+    height: 330px;
     margin-top: 50px;
     margin-left: 70px;
 }
 
-
-.comment-form__row{
+.comment-form__row {
     display: flex;
     flex-flow: row;
     justify-content: stretch;
 }
 
-
-.comment-form__input{
+.comment-form__input {
     display: flex;
-    flex-flow: column; 
-    
+    flex-flow: column;
     margin-right: 20px;
     margin-bottom: 20px;
-    
-} 
- 
-.comment-form__input-label,  
-.comment-form__input-text{
+}
+
+.comment-form__input-label,
+.comment-form__input-text {
     width: 264px;
     margin-bottom: 10px;
 }
 
-.comment-form__input-textarea{
+.comment-form__input-textarea {
     width: 550px;
 }
-.comment-form__input-option-label{
+
+.comment-form__input-option-label {
     margin-right: 20px;
-   
 }
-.comment-form__input-option-label_active{
+
+.comment-form__input-option-label_active {
     color: #4b73b5;
 }
 
 .comment-form__submit-button {
     background-color: #4b73b5;
-    border: 0px;
     width: 155px;
     height: 45px;
     border-radius: 5%;
     align-self: flex-end;
-    
-    margin-left:115px;
-  
+    margin-left: 115px;
 }
 
-.comment-form__submit-button-caption{
+.comment-form__submit-button-caption {
     font-weight: bold;
     font-size: 12px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-right:10px;
+    margin-right: 10px;
 }
- 

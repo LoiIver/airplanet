@@ -1,0 +1,46 @@
+aside {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 60px;
+    width: 110px;
+    vertical-align: top;
+}
+
+.nav__list {
+    position: relative;
+}
+
+.nav__list-item {
+    font-size: 12px;
+    line-height: 30px;
+    color: #4b73b5;
+    text-transform: uppercase;
+}
+
+.nav__list-item::before {
+    margin-right: 20px;
+}
+
+.nav__list-item-team::before {
+    content: url("./../../img/icons/team_icon.png");
+}
+
+.nav__list-item-main::before {
+    content: url("./../../img/icons/main_icon.png");
+}
+ 
+.nav__list-item-main_active::before {
+    content: url("./../../img/icons/main_icon_active.png");
+}
+
+.nav__list-item-feed::before {
+    content: url("./../../img/icons/feed_icon.png");
+}
+
+.nav__list-item_active {
+    color: #221f1f;
+}
+
+.nav__list-item-icon {
+    margin-right: 20px;
+}

@@ -1,0 +1,22 @@
+.breadcrumbs__list {
+    display: flex;
+    font-style: italic;
+}
+
+.breadcrumbs__list-item-link {
+    text-decoration: underline;
+    color: #497ccf;
+}
+
+.breadcrumbs__list-item::after {
+    content: "/";
+}
+
+.breadcrumbs__list-item:last-child {
+    color: #5a5858;
+    text-decoration: none;
+}
+
+.breadcrumbs__list-item:last-child::after {
+    content: "";
+}

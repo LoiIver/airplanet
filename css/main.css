@@ -1,94 +1,12 @@
-main {
-    display: inline-block;
-}
+/*layout import*/
 
-.company-pic {
-    display: block;
-    margin-top: -20px;
-    width: 900px;
-    height: 230px;
-    margin-bottom: 20px;
-    background-image: url(../img/pics/photo.png);
-}
+@import url("./layout/normalize.css");
+@import url("./layout/base.css");
+@import url("./layout/fonts.css");
 
-.rates {
-    margin-bottom: 105px;
-}
 
-.rates-header {
-    font-size: 49px;
-    font-weight: bold;
-    margin-bottom: 65px;
-}
-
-.rates-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.rates-list__item {
-    text-align: center;
-    width: 195px;
-    margin-left: 20px;
-    margin-right: 55px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-
-.rates-list__item-image-back {
-    margin-bottom: 20px;
-    background: #4b73b5;
-    border-radius: 50%;
-    height: 70px;
-    width: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
- 
-.rates-list__item-image_standard   {
-    content: url(../img/pics/flower.png);
-}
-
-.rates-list__item-image-premium {
-    content: url(../img/pics/mark-as-favorite-star.png);
-}
-
-.rates-list__item-image-lux {
-    content: url(../img/pics/painter-palette.png);
-}
-
-.rates-list__item-header {
-    font-size: 11px;
-    font-weight: bold;
-    color: #212121;
-    margin-top: 30px;
-    margin-bottom: 27px;
-    text-transform: uppercase;
-}
-
-.rates-list__item-descr {
-    font-size: 18px;
-    line-height: 33px;
-    color: #5d5b5b;
-    margin-bottom: 20px;
-    max-width: 195px;
-}
-
-.rates-list__item-pros-item {
-    list-style: disc;
-    color: #5d5b5b;
-    list-style-position: inside;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.rates-list__item-price {
-    font-size: 40px;
-}
-
-.rates-list__item-price-sign {
-    font-size: 30px;
-}
-
+/*layout sections*/
+@import url("./sections/breadcrumbs.css");
+@import url("./sections/header.css");
+@import url("./sections/footer.css");
+@import url("./sections/navlist.css");
