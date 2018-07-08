@@ -11,7 +11,8 @@
 .paginator__page,
 .paginator__button {
     display: inline-block;
-    background-color:#fff;
+    background-color: #fff;
+    vertical-align: middle;
 }
 
 .paginator__page {
@@ -20,12 +21,13 @@
     font-weight: bold;
     width: 25px;
     height: 25px;
+    padding-top: 5px;
 }
 
 .paginator__page_active {
-    background-color:  #4b73b5;
+    background-color: #4b73b5;
     width: 20px;
     color: #fff;
-   border-radius: 5%;
+    border-radius: 5%;
+   
 }
- 
