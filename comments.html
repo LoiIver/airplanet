@@ -22,9 +22,11 @@
     <div class="wrapper">
         <header class="header">
             <div class="container">
-                <a href="/" class="logo">
-                    <img src="./img/logo/logo_header.png" class="logo__pic" alt="logo" />
-                </a>
+                <div class="logo">
+                    <a href="/" class="logo__link">
+                        <img class="logo__pic" src="./img/logo/logo_header.png" alt="Логотип" />
+                    </a>
+                </div>
                 <address class="contacts">
                     <a class="contacts__phone" href="tel:+78000039210">8(800) 00-392-10</a>
                     <button class="contacts__working-hours">
@@ -55,25 +57,25 @@
                     </nav>
                     <section class="news">
                         <h2 class="news__header">Отзывы</h2>
-                        <ul class="news__list">
-                            <li class="news__list-item">
+                       
+                            <article class="news__list-item">
                                 <div class="news__list-item-image-wrapper">
                                     <img class="news__list-item-image" alt="Отзыв Ирины Паламарчук" src="./img/pics/irina_palamarchuk.png" />
                                 </div>
-                                <article class="news__list-item-content">
+                                <div class="news__list-item-content">
                                     <div class="news__list-date">12.10.2016</div>
                                     <h4 class="news__list-item-header">Ирина Паламарчук</h4>
 
                                     <p class="news__list-item-text">Классный полёт, трясло первые полчаса так, что я боялсь отстегнуть ремни. Слава Богу,
                                         ничего не случилось, но мне даже валерьянка не помогла, так страшно было. Рекомендую
                                         эту компанию, но лучше доплатить и лететь с комфортом.</p>
-                                </article>
-                            </li>
-                            <li class="news__list-item">
+                                </div>
+                            </article>
+                            <article class="news__list-item">
                                 <div class="news__list-item-image-wrapper">
                                     <img class="news__list-item-image" alt="отзыв Александра Белькова" src="./img/pics/aleksandr_belkov.png" />
                                 </div>
-                                <article class="news__list-item-content">
+                                <div class="news__list-item-content">
                                     <div class="news__list-date">01.02.2016</div>
                                     <h4 class="news__list-item-header">Александр Бельков</h4>
 
@@ -81,27 +83,27 @@
                                         - 1 раз. Единственное, что не понравилось - как-то мало места для ног, но с этим
                                         у меня часто проблема, рост 2.1 м
                                     </p>
-                                </article>
-                            </li>
-                            <li class="news__list-item">
+                                </div>
+                            </article>
+                            <article class="news__list-item">
                                 <div class="news__list-item-image-wrapper">
                                     <img class="news__list-item-image" alt="отзыв Александра Белькова" src="./img/pics/noname.png" />
                                 </div>
-                                <article class="news__list-item-content">
+                                <div class="news__list-item-content">
                                     <div class="news__list-date">22.12.2015</div>
                                     <h4 class="news__list-item-header">Игорь Николаенко</h4>
                                     <p class="news__list-item-text"> Кормили супер вообще! Сказали, что это из-за того, что полёт менее 2,5 часов. Но прибавьте
                                         к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто
                                         имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
                                     </p>
-                                </article>
-                            </li>
+                                </div>
+                            </article>
 
-                            <li class="news__list-item">
+                            <article class="news__list-item">
                                 <div class="news__list-item-image-wrapper">
                                     <img class="news__list-item-image" alt="Отзыв Анастасии Порядной" src="./img/pics/anastasia_poryadnaya.png" />
                                 </div>
-                                <article class="news__list-item-content">
+                                <div class="news__list-item-content">
                                     <div class="news__list-date">14.08.2015</div>
                                     <h4 class="news__list-item-header">Анастасия Порядная</h4>
 
@@ -109,8 +111,8 @@
                                         рейсы Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую
                                         на пыль. Спаасибо за полёт! Рекомендую!
                                     </p>
-                                </article>
-                            </li>
+                                </div>
+                            </article>
                         </ul>
                     </section>
                     <div class="paginator">
@@ -119,12 +121,24 @@
                             <</button>
                                 <ul class="paginator__pages">
                                     <li class="paginator__page paginator__page_active">1</li>
-                                    <li class="paginator__page">2</li>
-                                    <li class="paginator__page">3</li>
-                                    <li class="paginator__page">4</li>
-                                    <li class="paginator__page">5</li>
-                                    <li class="paginator__page">6</li>
-                                    <li class="paginator__page">7</li>
+                                    <li class="paginator__page">
+                                        <a class="paginator__page-link">2</a>
+                                    </li>
+                                    <li class="paginator__page">
+                                        <a class="paginator__page-link">3</a>
+                                    </li>
+                                    <li class="paginator__page">
+                                        <a class="paginator__page-link">4</a>
+                                    </li>
+                                    <li class="paginator__page">
+                                        <a class="paginator__page-link">5</a>
+                                    </li>
+                                    <li class="paginator__page">
+                                        <a class="paginator__page-link">6</a>
+                                    </li>
+                                    <li class="paginator__page">
+                                        <a class="paginator__page-link">7</a>
+                                    </li>
                                 </ul>
                                 <button class="paginator__button">></button>
 
@@ -193,8 +207,10 @@
                     <span class="signature__author-name">Анна Рысина</span>
                 </div>
             </div>
-            <div class="footer__logo">
-                <img src="img/logo/logo_header.png" class="logo" alt="ЛОготип" />
+            <div class="logo">
+                <a href="/" class="logo__link">
+                    <img class="logo__pic" src="./img/logo/logo_header.png"  alt="Логотип" />
+                </a>
             </div>
 
             <div class="socials">
